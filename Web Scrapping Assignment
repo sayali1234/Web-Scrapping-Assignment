@@ -1,0 +1,147 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a6ae9b8c-ada3-4a2a-8141-51e4d7412f78",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q1) What is Web Scraping? Why is it Used? Give three areas where Web Scraping is used to get data.\n",
+    "Ans: Web scraping is an automatic method to obtain large amounts of data from websites. Most of this data is unstructured data in an HTML format which is then\n",
+    "    converted into structured data in a spreadsheet or a database so that it can be used in various applications. There are many different ways to perform web \n",
+    "    scraping to obtain data from websites.\n",
+    "    Web scraping is used for a variety of reasons, including:\n",
+    "    1)Technology makes it easy to extract data : Web scraping can be used to extract data from websites that don't provide an API or other programmatic means \n",
+    "      of accessing data. This is particularly useful for collecting data on a large scale, such as product listings, job postings, or customer reviews.\n",
+    "    2)Better access to company data :\n",
+    "    3)Marketing automation without limits:\n",
+    "    4)Competitive analysis: Web scraping can be used to gather information on competitors, such as pricing information, product features, and marketing strategies.\n",
+    "    5)Research: Web scraping can be used to collect data for research purposes, such as analyzing sentiment on social media or tracking changes in stock prices.\n",
+    "    Three areas where web scraping is commonly used to get data include:\n",
+    "    1)E-commerce: Web scraping is used to collect product information from e-commerce sites such as Amazon or eBay. This data can be used to analyze pricing \n",
+    "    trends, identify new products, or monitor competitors.\n",
+    "    2)Marketing: Web scraping is used to gather data on customer behavior and preferences, such as website traffic, search engine rankings, and social media \n",
+    "     engagement.\n",
+    "    3)Financial services: Web scraping is used in the financial industry to collect data on stock prices, news articles, and economic indicators. This data is used\n",
+    "     to inform investment decisions and develop trading algorithms.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c6676f06-97f3-443e-8146-2020e7a948c1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q2) What are the different methods used for Web Scraping?\n",
+    "Ans:There are several methods used for web scraping, ranging from simple techniques that can be done manually to more sophisticated approaches that involve \n",
+    "    automated software tools. Here are some of the most common methods used for web scraping:\n",
+    "    1)Manual copying and pasting: This is the most basic form of web scraping, where data is copied and pasted from websites into a spreadsheet or database. This\n",
+    "    method is time-consuming and inefficient for large-scale data extraction, but it can be useful for small projects.\n",
+    "    2)HTML parsing: HTML parsing involves using programming languages such as Python or Ruby to extract data from HTML code. This method requires some programming\n",
+    "    knowledge but is more efficient than manual copying and pasting.\n",
+    "    3)Web scraping software: Web scraping software such as BeautifulSoup, Scrapy, or Selenium can automate the process of data extraction. These tools use scripts\n",
+    "    or code to navigate websites, extract data, and save it in a structured format.\n",
+    "    4)API scraping: Some websites provide APIs (Application Programming Interfaces) that allow developers to access their data programmatically. API scraping\n",
+    "    involves using code to interact with these APIs and extract data.\n",
+    "    5)Headless browsing: Headless browsing involves using web browsers such as Chrome or Firefox in a non-graphical mode to automate web scraping. This method can\n",
+    "    be useful for extracting data from websites that use JavaScript or require login credentials.\n",
+    "   The choice of method depends on the complexity of the data extraction project, the amount of data to be collected, and the technical skills of the web scraper."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ea4464d1-9d4e-40ba-920c-bd1f6423fdac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q3) What is Beautiful Soup? Why is it used?\n",
+    "Ans:Beautiful Soup is a Python library that is used for web scraping purposes. It is designed to parse HTML and XML documents and extract data from them.\n",
+    "    Beautiful Soup provides a simple and intuitive way to navigate the HTML tree structure and search for specific tags, attributes, or text.\n",
+    "    Beautiful Soup is used for several reasons:\n",
+    "    1)Parsing HTML and XML documents: Beautiful Soup can be used to parse HTML and XML documents and extract data from them. It provides a flexible and robust way\n",
+    "    to navigate the HTML tree structure and extract data based on specific criteria.\n",
+    "    2)Scraping data from websites: Beautiful Soup can be used to scrape data from websites by extracting information from the HTML and XML documents of the web \n",
+    "    pages. It can extract information such as product names, prices, and reviews from e-commerce sites, job postings from job portals, and news articles from media\n",
+    "    websites.\n",
+    "    3)Cleaning and transforming data: Beautiful Soup can be used to clean and transform data by removing unnecessary tags, converting data to a different format,\n",
+    "    or changing the structure of the data to make it more useful.\n",
+    "    3)Data analysis: Beautiful Soup can be used to prepare data for analysis by transforming it into a structured format such as a spreadsheet or a database. This\n",
+    "    can be useful for data analysis and visualization purposes.\n",
+    "    Overall, Beautiful Soup is a popular and versatile library for web scraping in Python due to its ease of use and flexibility in extracting and manipulating\n",
+    "    data from HTML and XML documents."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "26acf883-d8bd-4867-b05d-d94611bb64ac",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q4) Why is flask used in this Web Scraping project?\n",
+    "Ans:Flask is a lightweight and flexible web framework for Python that is often used for building web applications and APIs. Flask can be useful in a web scraping \n",
+    "    project for several reasons:\n",
+    "    Easy to use: Flask is simple and easy to use, making it a good choice for smaller web scraping projects or prototypes.\n",
+    "    1)Lightweight: Flask is a lightweight framework, which means that it is fast and efficient, making it ideal for web scraping projects that require speed and \n",
+    "    efficiency.\n",
+    "    2)Customizable: Flask is highly customizable, which means that you can build a web scraping application that is tailored to your specific needs and\n",
+    "    requirements.\n",
+    "    3)Support for HTTP requests: Flask provides support for making HTTP requests, which is essential for web scraping projects that require data to be extracted \n",
+    "    from websites.\n",
+    "    4)Extensibility: Flask is extensible, which means that you can add additional functionality and modules to your web scraping application as needed.\n",
+    "    In a web scraping project, Flask can be used to build a web interface or API that allows users to interact with the web scraper and access the data that has\n",
+    "    been scraped. For example, you could use Flask to build a simple web application that allows users to enter a URL and extract all the hyperlinks from the page. Flask can also be used to create APIs that allow developers to access the data that has been scraped, making it easier to integrate the data into other applications or services."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7ec202a8-b06b-4dcd-b2cd-d83440660833",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Q5) Write the names of AWS services used in this project. Also, explain the use of each service.\n",
+    "Ans:The project uses two main AWS services: AWS CodePipeline and AWS Elastic Beanstalk. Here is an explanation of the use of each service in the project:\n",
+    "    1)AWS CodePipeline: AWS CodePipeline is a fully managed continuous delivery service that helps automate the release process of software. It allows users to\n",
+    "    create a pipeline that builds, tests, and deploys code every time there is a code change, ensuring fast and reliable application delivery.\n",
+    "    In this project, AWS CodePipeline is used fetch data from github respository and to set up a continuous delivery workflow that automatically builds, tests,\n",
+    "    and deploys code changes to AWS Elastic Beanstalk. It is used to manage the deployment of the code to Elastic Beanstalk, ensuring that the application is\n",
+    "    built, tested, and deployed in a consistent and reliable manner. The pipeline can be configured to automatically deploy the application to Elastic Beanstalk\n",
+    "    after successful testing, reducing manual effort and increasing deployment frequency.\n",
+    "    2)AWS Elastic Beanstalk: AWS Elastic Beanstalk is a fully managed service that makes it easy to deploy and manage applications in the AWS Cloud. It provides a\n",
+    "    scalable and reliable environment for running web applications, handling the underlying infrastructure, and scaling resources as needed.\n",
+    "    In this project, AWS Elastic Beanstalk is used to host the web application. It provides a scalable and reliable environment for running the application, \n",
+    "    handling the underlying infrastructure, and scaling resources as needed. It also provides automatic deployment, monitoring, and scaling features, making it\n",
+    "    easy to deploy and manage the application. It can be easily integrated with AWS CodePipeline to create a seamless continuous delivery workflow, ensuring fast\n",
+    "    and reliable application delivery.\n",
+    "    Overall, the use of AWS CodePipeline and AWS Elastic Beanstalk together provides a powerful platform for deploying and managing web applications in the AWS\n",
+    "    Cloud. It allows developers to automate the release process, reduce the time between code changes and deployment, while also providing a reliable and scalable\n",
+    "    environment for hosting the application."
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
